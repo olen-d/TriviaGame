@@ -1,0 +1,8 @@
+#timer, #question, #answers {
+    display: none;
+}
+
+.answer {
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
