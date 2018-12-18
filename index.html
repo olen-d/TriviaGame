@@ -27,28 +27,34 @@
     <body>
         <div class="wrapper">
             <div class = "container-fluid">
-                <div class = "jumbotron">
-                    <h1>
-                        Velocipede Trivia
-                    </h1>
+                <div class = "row">
+                    <div class = "col-lg-2">
+                    </div>
+                    <div class = "col-lg-8">
+                        <div class = "jumbotron">
+                            <h1>
+                                Velocipede Trivia
+                            </h1>
+                            <p>
+                                Test your cycling knowledge with this engaging quiz game.
+                            </p>
+                            <button type = "button" class = "btn btn-warning" id = "start">
+                                Play Now!
+                            </button>
+                            <button type = "button" class = "btn btn-warning" id = "replay">
+                                Play Again!
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "col-lg-2">
+                    </div>
                 </div>
                 <div class = "row">
                     <div class = "col-lg-4">
                     </div>
-                    <div class = "col-lg-4">
-                        <button type = "button" class = "btn btn-primary" id = "start">
-                            Start Playing Trivia!
-                        </button>
-                    </div>
-                    <div class = "col-lg-4">
-                    </div>
-                </div>
-                <div class = "row">
-                    <div class = "col-lg-4">
-                    </div>
-                    <div class = "col-lg-4">
+                    <div class = "col-lg-4 content rounded-top">
                         <div id = "timer">
-                            00 Seconds Remaining
+                            Seconds Remaining: <span id="timer-display">00</span> 
                         </div>
                     </div>
                     <div class = "col-lg-4">
@@ -58,7 +64,7 @@
                 <div class = "row">
                     <div class = "col-lg-4">
                     </div>
-                    <div class = "col-lg-4">
+                    <div class = "col-lg-4 content">
                         <div id = "question">
                             
                         </div>
@@ -70,20 +76,13 @@
                 <div class = "row">
                     <div class = "col-lg-4">
                     </div>
-                    <div class = "col-lg-4">
+                    <div class = "col-lg-4 content rounded-bottom">
                         <div id = "answers">
                         </div>
                     </div>
                     <div class = "col-lg-4">
-
                     </div>
                 </div>
-                <!--    Answers -->
-                <!--    Result  -->
-                <!--    Correct Answer  -->
-                <!--    End page - correct, incorrect, unanswerd questions  -->
-                <!--    Start over, without reloading the page  -->
-
             </div>
         </div>
     </body>
